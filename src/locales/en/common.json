@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "articles": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "hero": {
+    "scheduleConsultation": "View My Projects",
+    "downloadGuide": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "credentials": "Credentials & Certifications"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My career journey and key accomplishments across different roles and industries"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Professional services and solutions I offer",
+    "scheduleConsultation": "Get In Touch",
+    "customSolution": "Need a custom solution? Let's discuss your requirements."
+  },
+  "articles": {
+    "title": "Featured Projects",
+    "subtitle": "Open-source contributions and technical work",
+    "viewAll": "View All Projects",
+    "stayInformed": "Stay updated with latest projects and insights"
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What colleagues and clients say about working together"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Interested in technical collaboration? Let's discuss how we can work together on software engineering projects.",
+    "contactInfo": "Contact Information",
+    "sendMessage": "Send Message",
+    "downloadResume": "Download Resume",
+    "contactSubtitle": "For technical discussions and partnership opportunities, send a direct message.",
+    "noObligation": "Technical response • Confidential discussion • Professional collaboration",
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Location",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "connectWithMe": "Connect with me"
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "subtitle": "Technologies and tools I use to build modern applications",
+    "frontend": "Frontend",
+    "backend": "Backend", 
+    "database": "Database",
+    "architecture": "Architecture & Design",
+    "devops": "DevOps & Infrastructure",
+    "quality": "Quality & Testing",
+    "mobile": "Mobile",
+    "ai": "AI & Innovation",
+    "methodologies": "Methodologies"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

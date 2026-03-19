@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "experience": "Experiencia",
+    "services": "Servicios",
+    "articles": "Artículos",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "scheduleConsultation": "Agendar una Consulta",
+    "downloadGuide": "Descargar Guía de Marketing"
+  },
+  "about": {
+    "title": "Sobre",
+    "credentials": "Credenciales & Certificaciones"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Mi trayectoria profesional y logros clave en diferentes roles e industrias"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Soluciones de marketing integrales adaptadas a sus necesidades y objetivos únicos",
+    "scheduleConsultation": "Agendar una Consulta",
+    "customSolution": "¿Necesita una solución personalizada? Discutamos sus requisitos específicos."
+  },
+  "articles": {
+    "title": "Insights & Artículos",
+    "subtitle": "Análisis experto y perspectivas sobre estrategias de marketing, tendencias digitales e insights de la industria",
+    "viewAll": "Ver Todos los Artículos",
+    "stayInformed": "Manténgase informado con insights regulares y análisis de marketing"
+  },
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "subtitle": "Lo que clientes y colegas dicen sobre trabajar juntos"
+  },
+  "contact": {
+    "title": "Póngase en Contacto",
+    "subtitle": "¿Interesado en colaboración técnica? Discutamos cómo podemos trabajar juntos en proyectos de ingeniería de software.",
+    "contactInfo": "Información de Contacto",
+    "sendMessage": "Enviar Mensaje",
+    "downloadResume": "Descargar Currículum",
+    "contactSubtitle": "Para discusiones técnicas y oportunidades de colaboración, envíe un mensaje directo.",
+    "noObligation": "Respuesta técnica • Discusión confidencial • Colaboración profesional",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "office": "Ubicación",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "connectWithMe": "Conéctese conmigo"
+  },
+  "techStack": {
+    "title": "Stack Tecnológico",
+    "subtitle": "Tecnologías y herramientas que uso para construir aplicaciones modernas",
+    "frontend": "Frontend",
+    "backend": "Backend", 
+    "database": "Base de Datos",
+    "architecture": "Arquitectura & Diseño",
+    "devops": "DevOps & Infraestructura",
+    "quality": "Calidad & Testing",
+    "mobile": "Mobile",
+    "ai": "IA & Innovación",
+    "methodologies": "Metodologías"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
