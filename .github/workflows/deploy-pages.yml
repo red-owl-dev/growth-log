@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: GITHUB_PAGES=true npm run build
+      - run: |
+          mkdir -p out
+          cp -R public/* out/ || true
+          cp -R .next/static out/_next
+          cp .next/server/app/index.html out/index.html
+          cp .next/server/app/favicon.ico out/favicon.ico
+          cp .next/server/pages/404.html out/404.html || true
+          cp .next/server/pages/500.html out/500.html || true
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: out
+      - uses: actions/deploy-pages@v1
