@@ -140,12 +140,12 @@ Create `src/locales/fr/content.ts` with translated content:
 ```typescript
 export const financeProfessionalContent = {
   profession: "Conseiller Financier",
-  fullName: "Alexander Mitchell",
+  fullName: "Name SurName",
   headline: "Planification Financière Stratégique & Gestion de Patrimoine",
   tagline: "Aider les individus et familles à haut patrimoine à atteindre la sécurité financière grâce à des stratégies d'investissement personnalisées",
   
   about: {
-    title: "À propos d'Alexander",
+    title: "À propos d'{{Name}}",
     description: "Avec plus de 15 ans d'expérience en gestion de patrimoine et planification financière, je me spécialise dans la création de stratégies financières complètes adaptées aux objectifs uniques et à la tolérance au risque de chaque client.",
     experience: "15+ ans d'expérience dans la gestion de portefeuilles évalués à plus de 500M$ pour des individus, familles et petites entreprises à haut patrimoine.",
     credentials: [
@@ -178,21 +178,21 @@ export const financeProfessionalContent = {
   ],
   
   contact: {
-    email: "alexander.mitchell@financial.com",
+    email: "your.email@example.com",
     phone: "+1 (555) 123-4567",
-    address: "123 Financial District, Suite 1000, New York, NY 10004",
-    linkedin: "https://linkedin.com/in/alexandermitchell",
-    calendar: "https://calendly.com/alexander-mitchell"
+    address: "123 Example Street, City, Country",
+    linkedin: "https://linkedin.com/in/example",
+    calendar: "https://calendly.com/example"
   },
   
   socialLinks: [
     {
       platform: "LinkedIn",
-      url: "https://linkedin.com/in/alexandermitchell"
+      url: "https://linkedin.com/in/example"
     },
     {
       platform: "Twitter",
-      url: "https://twitter.com/alexandermitchell"
+      url: "https://twitter.com/example"
     }
   ],
   
@@ -202,7 +202,7 @@ export const financeProfessionalContent = {
   },
   
   seo: {
-    title: "Alexander Mitchell - Conseiller Financier | Gestion de Patrimoine & Planification Financière",
+    title: "Name SurName - Conseiller Financier | Gestion de Patrimoine & Planification Financière",
     description: "Conseiller financier expérimenté offrant une gestion de patrimoine complète, une planification de la retraite et des stratégies d'investissement pour les individus et familles à haut patrimoine.",
     keywords: ["conseiller financier", "gestion de patrimoine", "planification financière", "stratégie d'investissement", "planification de la retraite", "planification fiscale"]
   }
