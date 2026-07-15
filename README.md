@@ -3,6 +3,8 @@
 [![Build Status](https://github.com/red-owl-dev/growth-log/actions/workflows/ci.yml/badge.svg)](https://github.com/red-owl-dev/growth-log/actions/workflows/ci.yml)
 [![Deploy Status](https://github.com/red-owl-dev/growth-log/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/red-owl-dev/growth-log/actions/workflows/deploy-pages.yml)
 
+**Live demo:** https://red-owl-dev.github.io/growth-log/
+
 A modern, responsive personal portfolio template built with Next.js, TypeScript, and Tailwind CSS. Ideal for developers, designers, consultants, and professionals who want a polished online presence with full multilingual support.
 
 ## 🚀 Highlights
@@ -113,11 +115,9 @@ The language selector will automatically include new languages.
 
 ## 🌐 Live Demo
 
-A live demo is available after GitHub Pages deployment at:
+A live demo is available at:
 
-```
 https://red-owl-dev.github.io/growth-log/
-```
 
 > Replace this URL with your actual GitHub Pages custom domain if needed.
 
@@ -138,10 +138,14 @@ This project is configured to deploy automatically to GitHub Pages from the `mai
 
 ## 🧩 GitHub Pages
 
-1. In your GitHub repository settings, enable GitHub Pages.
-2. Choose the `gh-pages` branch or the GitHub Pages deployment source created by the workflow.
+1. In your GitHub repository settings, go to **Pages**.
+2. Set **Build and deployment** to **GitHub Actions**.
 3. Save the settings.
 4. The site publishes automatically after each successful push to `main`.
+
+> Expected deployment URL:
+>
+> `https://red-owl-dev.github.io/growth-log/`
 
 ## 📦 GitHub Actions
 
